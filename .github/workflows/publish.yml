@@ -45,8 +45,8 @@ jobs:
           # 源目录
           SOURCE: 'docs/.vitepress/dist'
           # 服务器ip
-          REMOTE_HOST: ${{ secrets.HOST }}
+          REMOTE_HOST: '150.158.92.168'
           # 用户
-          REMOTE_USER: ${{ secrets.USERNAME }}
+          REMOTE_USER: 'root'
           # 目标地址
-          TARGET: '/ludan/blog'
+          TARGET: '/ludan/blog/'
