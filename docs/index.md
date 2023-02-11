@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Start Reading
-      link: /article/intro
+      link: /article/简介
     - theme: alt
       text: View on GitHub
       link: https://github.com/bigdriedfish/blog
@@ -19,11 +19,11 @@ hero:
 features: 
   - icon: 🦜
     title: 技术学习笔记
-    link: /tech/intro
+    link: /tech/简介
     details: 前端技术学习总结
   - icon: 🕊️
     title: 复盘反思记录
-    link: /review/intro
+    link: /review/简介
     details: 日、周、月、年复盘记录
   - icon: 🐦
     title: 英语
@@ -31,7 +31,7 @@ features:
     details: 英语单词、听力、书籍、电影...
   - icon: 🦢
     title: 阅读
-    link: /reading/intro
+    link: /reading/简介
     details: 精彩句子、段落、随笔、反思...
 ---
 
