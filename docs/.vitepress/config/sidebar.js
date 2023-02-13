@@ -1,8 +1,9 @@
 import { scanDir } from "./util";
 
 export default {
-  '/': scanDir('article'),
+  '/': scanDir('articles'),
   '/reading/': scanDir('reading'),
   '/review/': scanDir('review'),
-  '/tech/': scanDir('tech')
+  '/tech/': scanDir('tech'),
+  '/english/': scanDir('english')
 }

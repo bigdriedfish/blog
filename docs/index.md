@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Start Reading
-      link: /article/intro
+      link: /articles/intro
     - theme: alt
       text: View on GitHub
       link: https://github.com/bigdriedfish/blog

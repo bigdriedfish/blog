@@ -10,7 +10,7 @@ const config = {
   author: '卤蛋',
   authorAvatar: '/logo.svg',
   // 从 URL 中删除随尾.html
-  cleanUrls: 'with-subfolders',
+  // cleanUrls: 'with-subfolders',
 
   themeConfig: {
     logo: '/logo.svg',
