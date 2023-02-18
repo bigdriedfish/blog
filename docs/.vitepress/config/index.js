@@ -6,9 +6,8 @@ const config = {
   title: '鱼干的学习笔记',
   description: '学习开发日常记录',
   lastUpdated: true,
+  appearance: 'dark',
 
-  author: '卤蛋',
-  authorAvatar: '/logo.svg',
   // 从 URL 中删除随尾.html
   // cleanUrls: 'with-subfolders',
 
@@ -25,15 +24,17 @@ const config = {
     },
     lastUpdatedText: "最后更新时间",
 
+    markdown: {
+      lineNumbers: true,
+    },
     footer: footer,
 
-    editLink: {
-      pattern: 'https://github.com/bigdriedfish/blog/edit/master/docs/:path',
-      text: '前往GitHub进行修改'
-    },
+    // editLink: {
+    //   pattern: 'https://github.com/bigdriedfish/blog/edit/master/docs/:path',
+    //   text: '前往GitHub进行修改'
+    // },
 
   },
-  appearance: 'dark',
 }
 
 export default config
