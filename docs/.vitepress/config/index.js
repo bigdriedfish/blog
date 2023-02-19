@@ -19,8 +19,8 @@ const config = {
     nav,
     
     docFooter: {
-      prev: '上一页',
-      next: '下一页',
+      prev: '🔙',
+      next: '🔜',
     },
     lastUpdatedText: "最后更新时间",
 
